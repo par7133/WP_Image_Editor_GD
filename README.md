@@ -1,6 +1,7 @@
 # WP_Image_Editor_GD
 WordPress Image Editor Class for Image Manipulation through GD (clean standalone implementation)   
 
+
 ### Some important functionalities have been commented out and / or changed:  
    
 function __( $text, $domain = 'default' ) {   
