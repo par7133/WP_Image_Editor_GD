@@ -3,7 +3,8 @@ WordPress Image Editor Class for Image Manipulation through GD (clean standalone
 
 
 ### Some important functionalities have been commented out and / or changed:  
-   
+
+### // l10n.php
 function __( $text, $domain = 'default' ) {   
    
     // [ Changed to facilitate extrapolaation of the code ]   
@@ -13,6 +14,7 @@ function __( $text, $domain = 'default' ) {
     return $text;   
 }   
    
+### // class-wp-image-editor-gd.php   
 public function load() {   
 
     if ( $this->image ) {   
