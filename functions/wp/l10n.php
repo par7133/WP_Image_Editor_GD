@@ -58,6 +58,10 @@
  * @return string Translated text.
  */
 function __( $text, $domain = 'default' ) {
+  
+    // [ Changed to facilitate extrapolaation of the code ]
+      
     //return translate( $text, $domain );
+    
     return $text;
 }
