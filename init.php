@@ -44,10 +44,6 @@
         case "special_case":
           $incPath = PHP_INCLUDE_PATH . DIRECTORY_SEPARATOR . "path/to/special_case.php";
           break;
-        case "QRcode":
-          $incPath = CLASSES_PATH . DIRECTORY_SEPARATOR . "phpqrcode/qrlib.php";
-          //echo "incPath = $incPath" . PHP_BR;
-          break;
         case "WP_Error":
           $incPath = CLASSES_PATH . DIRECTORY_SEPARATOR . "WordPress/WordPress/class-wp-error.php";
           //echo "incPath = $incPath" . PHP_BR;
