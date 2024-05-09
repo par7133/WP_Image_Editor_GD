@@ -14,7 +14,7 @@ $gd_image_editor->save($img_path);
 ?>
 
 <pre>
-$img_path = '~/img/file.jpg';
+$img_path = './file.jpg';
 $gd_image_editor = new WP_Image_Editor_GD($img_path); 
 $gd_image_editor->load(); 
 $gd_image_editor->rotate(90);
